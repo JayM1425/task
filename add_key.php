@@ -1,8 +1,8 @@
 <?php
-// Connect to DB
+
 include 'db.php';
 
-// Check if form was submitted
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $staff_name = $_POST['staff_name'];
     $key_name = $_POST['key_name'];
