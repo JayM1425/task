@@ -129,6 +129,37 @@
             </div>
         </div>
     </div>
+    <!-- Add New Key Modal -->
+<div id="addModal" class="modal" style="display: none;">
+    <div class="modal-content">
+        <span class="close" id="closeModal">&times;</span>
+        <h2>Add New Key Entry</h2>
+        <form id="keyForm">
+            <input type="text" name="staff_name" placeholder="Staff Name" required><br>
+            <input type="text" name="key_name" placeholder="Key Name" required><br>
+            <input type="datetime-local" name="time_taken" required><br>
+            <input type="datetime-local" name="return_time"><br>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+</div>
+
+
+<script>
+    document.querySelector('.btn').addEventListener('click', function(e) {
+        e.preventDefault();
+        document.getElementById('addModal').style.display = 'flex';
+    });
+    
+    document.getElementById('closeModal').onclick = function() {
+        document.getElementById('addModal').style.display = 'none';
+    };
+    
+  
+
+        </script>
+        
+    
 </body>
 
 </html>
