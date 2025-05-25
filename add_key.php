@@ -13,11 +13,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("ssss", $staff_name, $key_name, $time_taken, $return_time);
 
-    if ($stmt->execute()) {
-        echo "Key entry added successfully!";
-    } else {
-        echo "Error: " . $stmt->error;
-    }
+if ($stmt->execute()) {
+    echo "<script>alert('Key entry added successfully!'); window.location.href='index.php';</script>";
+} else {
+    echo "<script>alert('Error: " . $stmt->error . "'); window.history.back();</script>";
+}
+
 
     $stmt->close();
     $conn->close();
