@@ -40,7 +40,7 @@
                 </div>
                 <div class="card">
                     <div class="box">
-                        <h1>53</h1>
+                        <h1>100</h1>
                         <h3>Keys</h3>
                     </div>
                     <div class="icon-case">
