@@ -15,17 +15,14 @@
     <div class="container">
         <div class="header">
             <div class="nav">
-                <!-- <div class="search">
-                    <input type="text" placeholder="Search..">
-                    <button type="submit"><img src="search.png" alt=""></button>
-                </div> -->
+               
                 <h1 class="search">MUST KEYS MANAGEMENT SYSTEM</h1>
                 <div class="user">
                     <a href="#" id="openModalBtn" class="btn">Add New</a>
 
-                    <img src="image/notifications.png" alt="">
+                   
                     <div class="img-case">
-                        <img src="user.png" alt="">
+                        <img src="image/must.png" alt="">
                     </div>
                 </div>
             </div>
@@ -59,15 +56,7 @@
                         <img src="image/schools.png" alt="">
                     </div>
                 </div>
-                <div class="card">
-                    <div class="box">
-                        <h1>350000</h1>
-                        <h3>Available</h3>
-                    </div>
-                    <div class="icon-case">
-                        <img src="image/income.png" alt="">
-                    </div>
-                </div>
+                
             </div>
             <div class="content-2">
                 <div class="recent-payments">
@@ -79,51 +68,37 @@
                         <tr>
                             <th>Staff Name</th>
                             <th>Phone number</th>
-                            <!-- <th>Taken Time</th>
-                            <th>Return Time </th> -->
-                            <!-- <th>Action</th> -->
+                    
                         </tr>
                         <tr>
                             <td>Paul Kilo</td>
                             <td>07789782</td>
-                            <!-- <td>10: 10</td>
-                            <td>20: 00</td> -->
-                            <!-- <td><a href="#" class="btn">View</a></td> -->
+                          
                         </tr>
                         <tr>
                             <td>Beth Singano</td>
                             <td>09456203</td>
-                            <!-- <td>10: 10</td>
-                            <td>20: 00</td> -->
-                            <!-- <td><a href="#" class="btn">View</a></td> -->
+                      
                         </tr>
                         <tr>
                             <td>Joyce kulwa</td>
                             <td>09610987</td>
-                            <!-- <td>10: 10</td>
-                            <td>20: 00</td> -->
-                            <!-- <td><a href="#" class="btn">View</a></td> -->
+                      
                         </tr>
                         <tr>
                             <td>Salum Kim</td>
                             <td>07234678</td>
-                            <!-- <td>10: 10</td>
-                            <td>20: 00</td> -->
-                            <!-- <td><a href="#" class="btn">View</a></td> -->
+                          
                         </tr>
                         <tr>
                             <td>Subiri Mateso</td>
                             <td>78904106</td>
-                            <!-- <td>10: 10</td>
-                            <td>20: 00</td> -->
-                            <!-- <td><a href="#" class="btn">View</a></td> -->
+                     
                         </tr>
                         <tr>
                             <td>John Sanga</td>
                             <td>08765120</td>
-                            <!-- <td>10: 10</td>
-                            <td>20: 00</td> -->
-                            <!-- <td><a href="#" class="btn">View</a></td> -->
+                    
                         </tr>
                     </table>
                 </div>
