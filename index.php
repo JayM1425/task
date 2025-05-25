@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Admin Panel</title>
+    <title>MUST Keys Management System.</title>
 </head>
 
 <body>
@@ -16,7 +16,7 @@
         <div class="header">
             <div class="nav">
                
-                <h1 class="search">MUST KEYS MANAGEMENT SYSTEM</h1>
+                <h1 class="search">Admin Panel</h1>
                 <div class="user">
                     <a href="#" id="openModalBtn" class="btn">Add New</a>
 
